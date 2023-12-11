@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delivery</title>
+    <!-- Bootstrap css (Bootstrap css fayli) -->
+    <link rel="stylesheet" href="./libs/bootstrap/style.css" />
+    <!-- Inter fonts css -->
+    <link rel="stylesheet" href="./fonts/font/stylesheet.css" />
+    <!-- Montserrat font css -->
+    <link rel="stylesheet" href="./fonts/font (1)/stylesheet.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Header(header qismi) -->
+    <header class="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">Delivery</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center"
+            >
+              <li class="nav-item">
+                <form
+                  class="d-flex search-form position-relative"
+                  role="search"
+                >
+                  <img
+                    class="search-icon position-absolute"
+                    src="./images/icons/search.svg"
+                    alt="search svg"
+                  />
+                  <input
+                    class="form-control me-2 w-100"
+                    type="search"
+                    placeholder="Найти ресторан или блюдо"
+                    aria-label="Search"
+                  />
+                  <button
+                    class="btn search-btn position-absolute"
+                    type="submit"
+                  >
+                    Поиск
+                  </button>
+                </form>
+              </li>
+              <li class="location d-flex align-items-center">
+                <img
+                  class="location-icon"
+                  src="./images/icons/location.svg"
+                  alt="location svg"
+                />
+                <p class="location-text">Укажите адрес доставки</p>
+              </li>
+            </ul>
+            <div class="nav-right d-flex align-items-center">
+              <div class="dropdown sellect-language">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img
+                    class="lang-icon"
+                    src="./images/icons/languages.svg"
+                    alt="languages svg"
+                    width="16"
+                    height="16"
+                  />
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <button class="dropdown-item" type="button">Uzbek</button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">Russian</button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">English</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="login">
+                <a href="#!" class="login-link">Войти</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main (main qismi) -->
+    <main class="main">
+      <!-- Intro card -->
+      <section class="intro">
+        <div class="container">
+          <div class="intro-cards d-flex">
+            <div class="intro-card d-flex justify-content-between">
+              <div class="card-content">
+                <h1 class="card-title">Напиток в подарок</h1>
+                <p class="card-description">При заказе от 600₽</p>
+                <h1 class="product-name">Domino's Pizza</h1>
+                <a href="#!" class="go">Перейти</a>
+              </div>
+              <div class="card-img">
+                <img
+                  class="product-image"
+                  src="./images/coffee.png"
+                  alt="coffee"
+                />
+              </div>
+            </div>
+            <div class="intro-card d-flex">
+              <div class="card-content">
+                <h1 class="card-title">Напиток в подарок</h1>
+                <p class="card-description">При заказе от 600₽</p>
+                <h1 class="product-name">Domino's Pizza</h1>
+                <a href="#!" class="go">Перейти</a>
+              </div>
+              <div class="card-img">
+                <img
+                  class="product-image"
+                  src="./images/card2-.png"
+                  alt="card2 png"
+                />
+              </div>
+            </div>
+            <div class="intro-card d-flex">
+              <div class="card-content">
+                <h1 class="card-title">Напиток в подарок</h1>
+                <p class="card-description">При заказе от 600₽</p>
+                <h1 class="product-name">Domino's Pizza</h1>
+                <a href="#!" class="go">Перейти</a>
+              </div>
+              <div class="card-img">
+                <img
+                  class="product-image last-image"
+                  src="./images/card3.png"
+                  alt="coffee"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Navbar -->
+      <section class="navbar">
+        <div class="container">
+          <ul class="nav d-flex align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Все</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Навынос</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Пицца</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Грузия</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Шашлык</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Десерты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Суши</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Еще
+                  <img src="./images/icons/arrow.svg" alt="arrow" />
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Суши</a></li>
+                  <li><a class="dropdown-item" href="#">Суши</a></li>
+                  <li><a class="dropdown-item" href="#">Суши</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="navbar-right d-flex">
+            <div class="dropdown delevriy">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Доставка: сейчас
+                <img src="./images/icons/arrow.svg" alt="arrow" />
+              </button>
+              <ul class="dropdown-menu">
+                <!-- panel1 -->
+                <li class="d-flex panel1">
+                  <a class="item" href="#!">Сегодня</a>
+                  <a class="item" href="#!">Завтра</a>
+                </li>
+                <!-- panel2 -->
+                <li class="d-flex panel2">
+                  <a class="item" href="#!">Сегодня</a>
+                  <img src="./images/icons/right.svg" alt="right" />
+                </li>
+                <div class="dropdown-item-box">
+                  <li><a class="dropdown-item" href="#">14:00</a></li>
+                  <li><a class="dropdown-item" href="#">15:00</a></li>
+                  <li><a class="dropdown-item" href="#">16:00</a></li>
+                  <li><a class="dropdown-item" href="#!">17:00</a></li>
+                  <li><a class="dropdown-item" href="#">14:00</a></li>
+                  <li><a class="dropdown-item" href="#">15:00</a></li>
+                  <li><a class="dropdown-item" href="#">16:00</a></li>
+                  <li><a class="dropdown-item" href="#!">17:00</a></li>
+                </div>
+              </ul>
+            </div>
+            <div class="dropdown filter">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Сортировка
+                <img src="./images/icons/arrow.svg" alt="arrow" />
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer(footer qismi) -->
+    <footer class="footer"></footer>
+
+    <!-- Bootstrap script (bootstrap script fayli) -->
+    <script src="./libs/bootstrap/script.js"></script>
+  </body>
+</html>
