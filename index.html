@@ -6,6 +6,8 @@
     <title>Delivery</title>
     <!-- Bootstrap css (Bootstrap css fayli) -->
     <link rel="stylesheet" href="./libs/bootstrap/style.css" />
+    <!-- swiper css -->
+    <link rel="stylesheet" href="./libs/swiper/swiper.css" />
     <!-- Inter fonts css -->
     <link rel="stylesheet" href="./fonts/font/stylesheet.css" />
     <!-- Montserrat font css -->
@@ -245,15 +247,1731 @@
                 aria-expanded="false"
               >
                 Сортировка
-                <img src="./images/icons/arrow.svg" alt="arrow" />
+                <img src="./images/icons/setting.svg" alt="arrow" />
               </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+              <ul class="dropdown-menu setting-menu">
+                <h1 class="title">Сначала показать</h1>
                 <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#!">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="setting-radio"
+                        id="radio-1"
+                      />
+                      <label class="form-check-label" for="radio-1"
+                        >Доверюсь вам</label
+                      >
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#!">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="setting-radio"
+                        id="radio-2"
+                      />
+                      <label class="form-check-label" for="radio-2"
+                        >С высоким рейтингом</label
+                      >
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#!">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="setting-radio"
+                        id="radio-3"
+                      />
+                      <label class="form-check-label" for="radio-3"
+                        >Недорогие
+                      </label>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#!">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="setting-radio"
+                        id="radio-4"
+                      />
+                      <label class="form-check-label" for="radio-4"
+                        >Дорогие
+                      </label>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#!">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="setting-radio"
+                        id="radio-5"
+                      />
+                      <label class="form-check-label" for="radio-5"
+                        >Быстрые
+                      </label>
+                    </div>
+                  </a>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-sliders">
+        <div class="container">
+          <div
+            class="slider-nav position-relative d-flex justify-content-between"
+          >
+            <h1 class="slider-title">Акции</h1>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="swiper intro-slider">
+            <div class="swiper-wrapper">
+              <!-- slider item -->
+              <div class="swiper-slide">
+                <div class="slide-images position-relative">
+                  <div
+                    class="sale-box position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="sale-icon"
+                      src="./images/icons/sale.svg"
+                      alt="sale"
+                    />
+                    <p class="sale-text">Скидка 20%</p>
+                  </div>
+                  <img
+                    class="slide-images"
+                    src="./images/slide-img.png"
+                    alt="slide images"
+                  />
+                  <div
+                    class="delivery-bar position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="car-icon"
+                      src="./images/icons/car.svg"
+                      alt="car icon"
+                    />
+                    <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                  </div>
+                </div>
+                <div class="slide-bottom-bar">
+                  <div class="slide-product-name">Domino's Pizza</div>
+                  <div class="rating d-flex align-items-center">
+                    <img
+                      class="star-icon"
+                      src="./images/icons/star.svg"
+                      alt="star icon"
+                    />
+                    <span class="rating-value">3.9</span>
+                    <div class="symbol-box">
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img
+                        src="./images/icons/opacity-currency.svg"
+                        alt="opacity-currency"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-images position-relative">
+                  <div
+                    class="sale-box position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="sale-icon"
+                      src="./images/icons/sale.svg"
+                      alt="sale"
+                    />
+                    <p class="sale-text">Скидка 20%</p>
+                  </div>
+                  <img
+                    class="slide-images"
+                    src="./images/slide-img.png"
+                    alt="slide images"
+                  />
+                  <div
+                    class="delivery-bar position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="car-icon"
+                      src="./images/icons/car.svg"
+                      alt="car icon"
+                    />
+                    <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                  </div>
+                </div>
+                <div class="slide-bottom-bar">
+                  <div class="slide-product-name">Domino's Pizza</div>
+                  <div class="rating d-flex align-items-center">
+                    <img
+                      class="star-icon"
+                      src="./images/icons/star.svg"
+                      alt="star icon"
+                    />
+                    <span class="rating-value">3.9</span>
+                    <div class="symbol-box">
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img
+                        src="./images/icons/opacity-currency.svg"
+                        alt="opacity-currency"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-images position-relative">
+                  <div
+                    class="sale-box position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="sale-icon"
+                      src="./images/icons/sale.svg"
+                      alt="sale"
+                    />
+                    <p class="sale-text">Скидка 20%</p>
+                  </div>
+                  <img
+                    class="slide-images"
+                    src="./images/slide-img.png"
+                    alt="slide images"
+                  />
+                  <div
+                    class="delivery-bar position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="car-icon"
+                      src="./images/icons/car.svg"
+                      alt="car icon"
+                    />
+                    <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                  </div>
+                </div>
+                <div class="slide-bottom-bar">
+                  <div class="slide-product-name">Domino's Pizza</div>
+                  <div class="rating d-flex align-items-center">
+                    <img
+                      class="star-icon"
+                      src="./images/icons/star.svg"
+                      alt="star icon"
+                    />
+                    <span class="rating-value">3.9</span>
+                    <div class="symbol-box">
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img
+                        src="./images/icons/opacity-currency.svg"
+                        alt="opacity-currency"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-images position-relative">
+                  <div
+                    class="sale-box position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="sale-icon"
+                      src="./images/icons/sale.svg"
+                      alt="sale"
+                    />
+                    <p class="sale-text">Скидка 20%</p>
+                  </div>
+                  <img
+                    class="slide-images"
+                    src="./images/slide-img.png"
+                    alt="slide images"
+                  />
+                  <div
+                    class="delivery-bar position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="car-icon"
+                      src="./images/icons/car.svg"
+                      alt="car icon"
+                    />
+                    <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                  </div>
+                </div>
+                <div class="slide-bottom-bar">
+                  <div class="slide-product-name">Domino's Pizza</div>
+                  <div class="rating d-flex align-items-center">
+                    <img
+                      class="star-icon"
+                      src="./images/icons/star.svg"
+                      alt="star icon"
+                    />
+                    <span class="rating-value">3.9</span>
+                    <div class="symbol-box">
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img
+                        src="./images/icons/opacity-currency.svg"
+                        alt="opacity-currency"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-images position-relative">
+                  <div
+                    class="sale-box position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="sale-icon"
+                      src="./images/icons/sale.svg"
+                      alt="sale"
+                    />
+                    <p class="sale-text">Скидка 20%</p>
+                  </div>
+                  <img
+                    class="slide-images"
+                    src="./images/slide-img.png"
+                    alt="slide images"
+                  />
+                  <div
+                    class="delivery-bar position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="car-icon"
+                      src="./images/icons/car.svg"
+                      alt="car icon"
+                    />
+                    <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                  </div>
+                </div>
+                <div class="slide-bottom-bar">
+                  <div class="slide-product-name">Domino's Pizza</div>
+                  <div class="rating d-flex align-items-center">
+                    <img
+                      class="star-icon"
+                      src="./images/icons/star.svg"
+                      alt="star icon"
+                    />
+                    <span class="rating-value">3.9</span>
+                    <div class="symbol-box">
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img
+                        src="./images/icons/opacity-currency.svg"
+                        alt="opacity-currency"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-images position-relative">
+                  <div
+                    class="sale-box position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="sale-icon"
+                      src="./images/icons/sale.svg"
+                      alt="sale"
+                    />
+                    <p class="sale-text">Скидка 20%</p>
+                  </div>
+                  <img
+                    class="slide-images"
+                    src="./images/slide-img.png"
+                    alt="slide images"
+                  />
+                  <div
+                    class="delivery-bar position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="car-icon"
+                      src="./images/icons/car.svg"
+                      alt="car icon"
+                    />
+                    <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                  </div>
+                </div>
+                <div class="slide-bottom-bar">
+                  <div class="slide-product-name">Domino's Pizza</div>
+                  <div class="rating d-flex align-items-center">
+                    <img
+                      class="star-icon"
+                      src="./images/icons/star.svg"
+                      alt="star icon"
+                    />
+                    <span class="rating-value">3.9</span>
+                    <div class="symbol-box">
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img
+                        src="./images/icons/opacity-currency.svg"
+                        alt="opacity-currency"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-images position-relative">
+                  <div
+                    class="sale-box position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="sale-icon"
+                      src="./images/icons/sale.svg"
+                      alt="sale"
+                    />
+                    <p class="sale-text">Скидка 20%</p>
+                  </div>
+                  <img
+                    class="slide-images"
+                    src="./images/slide-img.png"
+                    alt="slide images"
+                  />
+                  <div
+                    class="delivery-bar position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="car-icon"
+                      src="./images/icons/car.svg"
+                      alt="car icon"
+                    />
+                    <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                  </div>
+                </div>
+                <div class="slide-bottom-bar">
+                  <div class="slide-product-name">Domino's Pizza</div>
+                  <div class="rating d-flex align-items-center">
+                    <img
+                      class="star-icon"
+                      src="./images/icons/star.svg"
+                      alt="star icon"
+                    />
+                    <span class="rating-value">3.9</span>
+                    <div class="symbol-box">
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img
+                        src="./images/icons/opacity-currency.svg"
+                        alt="opacity-currency"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-images position-relative">
+                  <div
+                    class="sale-box position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="sale-icon"
+                      src="./images/icons/sale.svg"
+                      alt="sale"
+                    />
+                    <p class="sale-text">Скидка 20%</p>
+                  </div>
+                  <img
+                    class="slide-images"
+                    src="./images/slide-img.png"
+                    alt="slide images"
+                  />
+                  <div
+                    class="delivery-bar position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="car-icon"
+                      src="./images/icons/car.svg"
+                      alt="car icon"
+                    />
+                    <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                  </div>
+                </div>
+                <div class="slide-bottom-bar">
+                  <div class="slide-product-name">Domino's Pizza</div>
+                  <div class="rating d-flex align-items-center">
+                    <img
+                      class="star-icon"
+                      src="./images/icons/star.svg"
+                      alt="star icon"
+                    />
+                    <span class="rating-value">3.9</span>
+                    <div class="symbol-box">
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img
+                        src="./images/icons/opacity-currency.svg"
+                        alt="opacity-currency"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-images position-relative">
+                  <div
+                    class="sale-box position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="sale-icon"
+                      src="./images/icons/sale.svg"
+                      alt="sale"
+                    />
+                    <p class="sale-text">Скидка 20%</p>
+                  </div>
+                  <img
+                    class="slide-images"
+                    src="./images/slide-img.png"
+                    alt="slide images"
+                  />
+                  <div
+                    class="delivery-bar position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="car-icon"
+                      src="./images/icons/car.svg"
+                      alt="car icon"
+                    />
+                    <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                  </div>
+                </div>
+                <div class="slide-bottom-bar">
+                  <div class="slide-product-name">Domino's Pizza</div>
+                  <div class="rating d-flex align-items-center">
+                    <img
+                      class="star-icon"
+                      src="./images/icons/star.svg"
+                      alt="star icon"
+                    />
+                    <span class="rating-value">3.9</span>
+                    <div class="symbol-box">
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img
+                        src="./images/icons/opacity-currency.svg"
+                        alt="opacity-currency"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-images position-relative">
+                  <div
+                    class="sale-box position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="sale-icon"
+                      src="./images/icons/sale.svg"
+                      alt="sale"
+                    />
+                    <p class="sale-text">Скидка 20%</p>
+                  </div>
+                  <img
+                    class="slide-images"
+                    src="./images/slide-img.png"
+                    alt="slide images"
+                  />
+                  <div
+                    class="delivery-bar position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="car-icon"
+                      src="./images/icons/car.svg"
+                      alt="car icon"
+                    />
+                    <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                  </div>
+                </div>
+                <div class="slide-bottom-bar">
+                  <div class="slide-product-name">Domino's Pizza</div>
+                  <div class="rating d-flex align-items-center">
+                    <img
+                      class="star-icon"
+                      src="./images/icons/star.svg"
+                      alt="star icon"
+                    />
+                    <span class="rating-value">3.9</span>
+                    <div class="symbol-box">
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img
+                        src="./images/icons/opacity-currency.svg"
+                        alt="opacity-currency"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-images position-relative">
+                  <div
+                    class="sale-box position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="sale-icon"
+                      src="./images/icons/sale.svg"
+                      alt="sale"
+                    />
+                    <p class="sale-text">Скидка 20%</p>
+                  </div>
+                  <img
+                    class="slide-images"
+                    src="./images/slide-img.png"
+                    alt="slide images"
+                  />
+                  <div
+                    class="delivery-bar position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="car-icon"
+                      src="./images/icons/car.svg"
+                      alt="car icon"
+                    />
+                    <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                  </div>
+                </div>
+                <div class="slide-bottom-bar">
+                  <div class="slide-product-name">Domino's Pizza</div>
+                  <div class="rating d-flex align-items-center">
+                    <img
+                      class="star-icon"
+                      src="./images/icons/star.svg"
+                      alt="star icon"
+                    />
+                    <span class="rating-value">3.9</span>
+                    <div class="symbol-box">
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img
+                        src="./images/icons/opacity-currency.svg"
+                        alt="opacity-currency"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-images position-relative">
+                  <div
+                    class="sale-box position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="sale-icon"
+                      src="./images/icons/sale.svg"
+                      alt="sale"
+                    />
+                    <p class="sale-text">Скидка 20%</p>
+                  </div>
+                  <img
+                    class="slide-images"
+                    src="./images/slide-img.png"
+                    alt="slide images"
+                  />
+                  <div
+                    class="delivery-bar position-absolute d-flex align-items-center"
+                  >
+                    <img
+                      class="car-icon"
+                      src="./images/icons/car.svg"
+                      alt="car icon"
+                    />
+                    <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                  </div>
+                </div>
+                <div class="slide-bottom-bar">
+                  <div class="slide-product-name">Domino's Pizza</div>
+                  <div class="rating d-flex align-items-center">
+                    <img
+                      class="star-icon"
+                      src="./images/icons/star.svg"
+                      alt="star icon"
+                    />
+                    <span class="rating-value">3.9</span>
+                    <div class="symbol-box">
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img src="./images/icons/curency.svg" alt="curency" />
+                      <img
+                        src="./images/icons/opacity-currency.svg"
+                        alt="opacity-currency"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="offer">
+        <div class="container">
+          <div class="offer-nav">
+            <h1 class="offer-nav-title">Выгодные предложения</h1>
+            <div class="offer-cards d-flex justify-content-between">
+              <div class="offer-card">
+                <div class="offer-top">
+                  <h1 class="offer-card-title">Счастливые часы</h1>
+                  <p class="offer-card-descr">
+                    Получите <span class="sale-mark">скидку 20%</span>  в будние
+                    дни с 12:00 до 17:00
+                  </p>
+                </div>
+                <img class="sale-img" src="./images/sale-img.png" alt="sale" />
+                <h1 class="product-name">Domino's Pizza</h1>
+                <a class="offer-card-link" href="#!">Перейти</a>
+              </div>
+              <div class="offer-card position-relative">
+                <div class="offer-top">
+                  <h1 class="offer-card-title">КОМБО “Че нибудь”</h1>
+                  <ul class="offer-menu">
+                    <li class="offer-items"><p>Греческий салат</p></li>
+                    <li class="offer-items"><p>Грибной крем-суп</p></li>
+                    <li class="offer-items"><p>Паста “Карбонара”</p></li>
+                    <li class="offer-items"><p>Апельсиновый сок</p></li>
+                  </ul>
+                  <img
+                    class="position-absolute product-img"
+                    src="./images/offer-card-product1.png"
+                    alt="sale"
+                  />
+                  <h1 class="product-price">600₽<sup>1200₽</sup></h1>
+                </div>
+                <div class="offer-bottom">
+                  <h1 class="product-name">Ёж и устрица</h1>
+                  <a class="offer-card-link link2" href="#!">Перейти</a>
+                </div>
+              </div>
+              <div class="offer-card position-relative">
+                <div class="offer-top">
+                  <h1 class="offer-card-title">КОМБО “Че нибудь”</h1>
+                  <ul class="offer-menu">
+                    <li class="offer-items"><p>Греческий салат</p></li>
+                    <li class="offer-items"><p>Грибной крем-суп</p></li>
+                    <li class="offer-items"><p>Паста “Карбонара”</p></li>
+                    <li class="offer-items"><p>Апельсиновый сок</p></li>
+                  </ul>
+                  <img
+                    class="position-absolute product-img"
+                    src="./images/offer-card-product2.png"
+                    alt="sale"
+                  />
+                  <h1 class="product-price">600₽<sup>1200₽</sup></h1>
+                </div>
+                <div class="offer-bottom">
+                  <h1 class="product-name">Ёж и устрица</h1>
+                  <a class="offer-card-link link2" href="#!">Перейти</a>
+                </div>
+              </div>
+              <div class="offer-card position-relative">
+                <div class="offer-top">
+                  <h1 class="offer-card-title">КОМБО “Че нибудь”</h1>
+                  <ul class="offer-menu">
+                    <li class="offer-items"><p>Греческий салат</p></li>
+                    <li class="offer-items"><p>Грибной крем-суп</p></li>
+                    <li class="offer-items"><p>Паста “Карбонара”</p></li>
+                    <li class="offer-items"><p>Апельсиновый сок</p></li>
+                  </ul>
+                  <img
+                    class="position-absolute product-img"
+                    src="./images/offer-card-product3.png"
+                    alt="sale"
+                  />
+                  <h1 class="product-price">600₽<sup>1200₽</sup></h1>
+                </div>
+                <div class="offer-bottom">
+                  <h1 class="product-name">Ёж и устрица</h1>
+                  <a class="offer-card-link link2" href="#!">Перейти</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="all-products">
+        <div class="container">
+          <h1 class="title">Все рестораны</h1>
+          <div class="all-product">
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-card">
+              <div class="slide-images position-relative">
+                <div
+                  class="sale-box position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="sale-icon"
+                    src="./images/icons/sale.svg"
+                    alt="sale"
+                  />
+                  <p class="sale-text">Скидка 20%</p>
+                </div>
+                <img
+                  class="slide-images"
+                  src="./images/slide-img.png"
+                  alt="slide images"
+                />
+                <div
+                  class="delivery-bar position-absolute d-flex align-items-center"
+                >
+                  <img
+                    class="car-icon"
+                    src="./images/icons/car.svg"
+                    alt="car icon"
+                  />
+                  <p class="delivery-bar-text">Бесплатно, 30-40 мин</p>
+                </div>
+              </div>
+              <div class="slide-bottom-bar">
+                <div class="slide-product-name">Domino's Pizza</div>
+                <div class="rating d-flex align-items-center">
+                  <img
+                    class="star-icon"
+                    src="./images/icons/star.svg"
+                    alt="star icon"
+                  />
+                  <span class="rating-value">3.9</span>
+                  <div class="symbol-box">
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img src="./images/icons/curency.svg" alt="curency" />
+                    <img
+                      src="./images/icons/opacity-currency.svg"
+                      alt="opacity-currency"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -261,9 +1979,87 @@
     </main>
 
     <!-- Footer(footer qismi) -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container d-flex">
+        <div class="kitchen">
+          <h1 class="title">Блюда и кухни</h1>
+          <ul class="kitchen-menu d-flex">
+            <li class="menu1">
+              <ul>
+                <li><a href="#!">Выпечка</a></li>
+                <li><a href="#!">Блины</a></li>
+                <li><a href="#!">Бургеры</a></li>
+                <li><a href="#!">Чебуреки</a></li>
+                <li><a href="#!">Кофе</a></li>
+                <li><a href="#!">Десерты</a></li>
+                <li><a href="#!">Фастуфут</a></li>
+                <li><a href="#!">Грузинская кухня</a></li>
+                <li><a href="#!">Хот-дог</a></li>
+              </ul>
+            </li>
+            <li class="menu1">
+              <ul>
+                <li><a href="#!">Выпечка</a></li>
+                <li><a href="#!">Блины</a></li>
+                <li><a href="#!">Бургеры</a></li>
+                <li><a href="#!">Чебуреки</a></li>
+                <li><a href="#!">Кофе</a></li>
+                <li><a href="#!">Десерты</a></li>
+                <li><a href="#!">Фастуфут</a></li>
+                <li><a href="#!">Грузинская кухня</a></li>
+                <li><a href="#!">Хот-дог</a></li>
+              </ul>
+            </li>
+            <li class="menu1">
+              <ul>
+                <li><a href="#!">Выпечка</a></li>
+                <li><a href="#!">Блины</a></li>
+                <li><a href="#!">Бургеры</a></li>
+                <li><a href="#!">Чебуреки</a></li>
+                <li><a href="#!">Кофе</a></li>
+                <li><a href="#!">Десерты</a></li>
+                <li><a href="#!">Фастуфут</a></li>
+                <li><a href="#!">Грузинская кухня</a></li>
+                <li><a href="#!">Хот-дог</a></li>
+              </ul>
+            </li>
+            <li class="menu1">
+              <ul>
+                <li><a href="#!">Выпечка</a></li>
+                <li><a href="#!">Блины</a></li>
+                <li><a href="#!">Бургеры</a></li>
+                <li><a href="#!">Чебуреки</a></li>
+                <li><a href="#!">Кофе</a></li>
+                <li><a href="#!">Десерты</a></li>
+                <li><a href="#!">Фастуфут</a></li>
+                <li><a href="#!">Грузинская кухня</a></li>
+                <li><a href="#!">Хот-дог</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="about">
+          <h1 class="title">О компании</h1>
+          <ul class="about-menu">
+            <li class="about-item"><a href="#!" class="about-link">Пользовательское соглашение</a></li>
+            <li class="about-item"><a href="#!" class="about-link">Контакты</a></li>
+            <li class="about-item"><a href="#!" class="about-link">Доставка</a></li>
+            <li class="about-item"><a href="#!" class="about-link">Стать партнером</a></li>
+            <li class="about-item"><a href="#!" class="about-link">Стать курьером</a></li>
+          </ul>
+          <div class="email">
+            <img src="./images/icons/email-icon.svg" alt="email-icon">
+            <p class="email-text"><a href="#!">Обратная связь</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Bootstrap script (bootstrap script fayli) -->
     <script src="./libs/bootstrap/script.js"></script>
+    <!-- Swiper js -->
+    <script src="./libs/swiper/swiper.js"></script>
+    <!-- custom js -->
+    <script src="./js/main.js"></script>
   </body>
 </html>

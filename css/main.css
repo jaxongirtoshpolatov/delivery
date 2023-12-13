@@ -323,6 +323,316 @@ a:focus {
   border-left: 0 solid transparent; }
 .navbar .filter {
   margin-left: 8px; }
+.navbar .dropdown-menu.setting-menu {
+  max-height: 310px; }
+  .navbar .dropdown-menu.setting-menu .title {
+    color: #1e1e1e;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; }
+  .navbar .dropdown-menu.setting-menu .form-check-input[type="radio"] {
+    background-color: #d9d9d9; }
+  .navbar .dropdown-menu.setting-menu .form-check-input[type="radio"]:checked {
+    position: relative; }
+    .navbar .dropdown-menu.setting-menu .form-check-input[type="radio"]:checked::after {
+      position: absolute;
+      content: "";
+      width: 7px;
+      height: 7px;
+      background-color: #fff;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%; }
+  .navbar .dropdown-menu.setting-menu .form-check-input[type="radio"]:checked {
+    background-color: #ff4c34;
+    position: relative; }
+  .navbar .dropdown-menu.setting-menu .form-check-input:focus {
+    border-color: #ff4c34c7;
+    outline: 0;
+    box-shadow: 0 0 0 0.025rem #ff4c3455; }
+
+.intro-slider .slide-images {
+  display: inline-block; }
+.intro-slider .sale-box {
+  border-radius: 15px;
+  background: #00ae63;
+  display: inline-flex !important;
+  padding: 6px;
+  top: 8px;
+  left: 8px; }
+  .intro-slider .sale-box .sale-text {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 6px; }
+.intro-slider .delivery-bar {
+  border-radius: 15px 15px 15px 0px;
+  background: #ffc11e;
+  display: inline-flex !important;
+  padding: 6px;
+  bottom: 0;
+  right: 0; }
+  .intro-slider .delivery-bar .delivery-bar-text {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-weight: 600;
+    margin-left: 6px; }
+.intro-slider .slide-bottom-bar .slide-product-name {
+  color: #1e1e1e;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 8px 0 4px 0; }
+.intro-slider .slide-bottom-bar .star-icon {
+  margin-right: 4px; }
+.intro-slider .slide-bottom-bar .rating-value {
+  color: #afafaf;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; }
+.intro-slider .slide-bottom-bar .symbol-box {
+  margin-left: 8px; }
+.intro-slider .intro-slider {
+  width: 100%; }
+
+.slider-nav {
+  width: 100%;
+  margin-bottom: 14px; }
+
+.swiper-pagination-bullet {
+  border-radius: 7px;
+  background: #ff4c3480; }
+
+.swiper-pagination-bullet-active {
+  width: 32px;
+  height: 6px;
+  background-color: #ff4c34; }
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  width: 50% !important;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  left: 50%; }
+
+.offer {
+  margin-top: 48px; }
+  .offer .offer-nav-title {
+    margin-bottom: 24px;
+    color: #1e1e1e;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; }
+  .offer .offer-cards {
+    gap: 20px; }
+  .offer .offer-card {
+    max-width: 295px !important;
+    background: url(../images/offer-card-img.png);
+    background-size: 100% 100%;
+    padding: 20px 41px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .offer .offer-card:nth-child(2) {
+      background: url(../images/offer-card-img2.png);
+      background-size: 100% 100%;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      max-width: 295px !important;
+      justify-content: space-between; }
+    .offer .offer-card:nth-child(3) {
+      background: url(../images/offer-card-img3.png);
+      background-size: 100% 100%;
+      padding: 20px;
+      max-width: 295px !important; }
+  .offer .offer-card-title {
+    margin-bottom: 8px; }
+  .offer .offer-card-title,
+  .offer .product-name {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143.9%;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2; }
+  .offer .offer-card-descr {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 143.9%;
+    /* 23.024px */ }
+    .offer .offer-card-descr span {
+      color: #fff;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 143.9%; }
+  .offer .offer-card-link {
+    border-radius: 15px;
+    background: #ff4c34;
+    padding: 11px 20px;
+    margin-top: 8px;
+    display: inline-block;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    width: 106px; }
+  .offer .link2 {
+    width: 106px; }
+  .offer .product-img {
+    bottom: 0;
+    right: 0; }
+  .offer .offer-menu {
+    color: #50005e;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.9%;
+    /* 23.024px */
+    padding-left: 20px;
+    margin-bottom: 11px; }
+    .offer .offer-menu p {
+      margin-bottom: 4px;
+      color: #fff; }
+      .offer .offer-menu p:last-child {
+        margin-bottom: 0; }
+  .offer .product-price {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 144%; }
+  .offer sup {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 143.9%;
+    /* 23.024px */
+    text-decoration: line-through; }
+
+.all-products .all-product {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 16px; }
+.all-products .title {
+  color: #1e1e1e;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 48px 0 24px 0; }
+.all-products .product-card {
+  display: inline-block; }
+.all-products .sale-box {
+  border-radius: 15px;
+  background: #00ae63;
+  padding: 6px;
+  top: 8px;
+  left: 8px; }
+  .all-products .sale-box .sale-text {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-weight: 600;
+    margin-left: 5px; }
+.all-products .delivery-bar {
+  border-radius: 15px 15px 15px 0px;
+  background: #ffc11e;
+  padding: 6px;
+  bottom: 0;
+  right: 0; }
+  .all-products .delivery-bar .delivery-bar-text {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 6px; }
+.all-products .slide-bottom-bar .slide-product-name {
+  color: #1e1e1e;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 8px 0 4px 0; }
+.all-products .slide-bottom-bar .rating-value {
+  color: #afafaf;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0 8px 0 4px; }
+
+.footer {
+  margin-top: 150px;
+  background: #f2f2f2; }
+  .footer .container {
+    padding: 40px 0; }
+  .footer .title {
+    color: #1e1e1e;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px; }
+  .footer .menu1 {
+    margin-right: 89px;
+    list-style: none; }
+    .footer .menu1:last-child {
+      margin-right: 0; }
+    .footer .menu1 li {
+      list-style: none; }
+  .footer .menu1 a {
+    color: #1e1e1e;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; }
+  .footer .about {
+    margin-left: 197px; }
+    .footer .about .about-menu {
+      margin-bottom: 44px; }
+    .footer .about .about-item {
+      list-style: none; }
+    .footer .about .about-link {
+      color: #1e1e1e;
+      font-family: Montserrat;
+      font-size: 13px;
+      font-weight: 400; }
+    .footer .about .email {
+      display: flex;
+      align-items: center; }
+      .footer .about .email .email-text a {
+        color: #1e1e1e;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 400;
+        margin-left: 8px; }
 
 @media screen and (min-width: 1440px) {
   .container,
