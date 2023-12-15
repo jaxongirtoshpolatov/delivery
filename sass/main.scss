@@ -962,13 +962,18 @@ a:focus {
     width: 100%;
   }
 
-  .all-products .slide-images{
+  .all-products .slide-images {
     width: 100% !important;
   }
   .navbar {
     .nav-item {
       padding: 10px 0px;
     }
+  }
+  .kitchen-menu {
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+    gap: 10px;
   }
 }
 

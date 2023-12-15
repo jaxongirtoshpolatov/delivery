@@ -765,7 +765,12 @@ a:focus {
     width: 100% !important; }
 
   .navbar .nav-item {
-    padding: 10px 0px; } }
+    padding: 10px 0px; }
+
+  .kitchen-menu {
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+    gap: 10px; } }
 @media screen and (max-width: 375px) {
   .footer .container {
     padding: 20px 10px 0px 10px; }
