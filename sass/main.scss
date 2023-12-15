@@ -976,4 +976,7 @@ a:focus {
     grid-template-columns: auto auto !important;
     gap: 10px;
   }
+  .intro-card:last-child {
+    margin-right: 10px;
+  }
 }

@@ -9,7 +9,7 @@ let swiper = new Swiper(".intro-slider", {
       // when window width is >= 320px
       320: {
           slidesPerView: 1,
-          spaceBetween: 0,
+          spaceBetween: 10,
           slideToClickedSlide: true,
       },
       768: {
