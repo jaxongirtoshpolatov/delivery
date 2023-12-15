@@ -796,6 +796,9 @@ a:focus {
   .navbar .location {
     width: 100%; }
 
+  .navbar-nav {
+    flex-direction: column !important; }
+
   .header .nav-right {
     justify-content: space-between; } }
 @media screen and (max-width: 375px) {

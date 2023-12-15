@@ -999,6 +999,9 @@ a:focus {
   .navbar .location {
     width: 100%;
   }
+  .navbar-nav {
+    flex-direction: column !important;
+  }
   .header {
     .nav-right {
       justify-content: space-between;
