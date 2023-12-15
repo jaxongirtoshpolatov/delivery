@@ -770,7 +770,10 @@ a:focus {
   .kitchen-menu {
     display: grid !important;
     grid-template-columns: auto auto !important;
-    gap: 10px; } }
+    gap: 10px; }
+
+  .footer .container {
+    padding: 20px 10px; } }
 @media screen and (max-width: 375px) {
   .footer .container {
     padding: 20px 10px 0px 10px; }
