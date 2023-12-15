@@ -910,6 +910,14 @@ a:focus {
       margin-left: 0;
     }
   }
+  .navbar-nav {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .nav-right {
+    justify-content: space-between;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -978,6 +986,24 @@ a:focus {
   .footer .container {
     padding: 20px 10px;
   }
+  .navbar .search-form .form-control {
+    width: 100%;
+  }
+  .navbar .search-form {
+    margin-right: 0;
+  }
+  .navbar .nav-item {
+    padding: 10px 0px;
+    width: 100%;
+  }
+  .navbar .location {
+    width: 100%;
+  }
+  .header {
+    .nav-right {
+      justify-content: space-between;
+    }
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -995,6 +1021,18 @@ a:focus {
   .navbar {
     .nav-item {
       padding: 10px 0px;
+    }
+  }
+  .navbar .nav-item {
+    padding: 10px 0px;
+    width: 100%;
+  }
+  .navbar .location {
+    width: 100%;
+  }
+  .header {
+    .nav-right {
+      justify-content: space-between;
     }
   }
 }

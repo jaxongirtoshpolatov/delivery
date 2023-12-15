@@ -719,7 +719,15 @@ a:focus {
     flex-wrap: wrap;
     gap: 20px; }
   .footer .about {
-    margin-left: 0; } }
+    margin-left: 0; }
+
+  .navbar-nav {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between; }
+
+  .nav-right {
+    justify-content: space-between; } }
 @media screen and (max-width: 425px) {
   .intro-cards {
     grid-template-columns: auto !important;
@@ -773,7 +781,23 @@ a:focus {
     gap: 10px; }
 
   .footer .container {
-    padding: 20px 10px; } }
+    padding: 20px 10px; }
+
+  .navbar .search-form .form-control {
+    width: 100%; }
+
+  .navbar .search-form {
+    margin-right: 0; }
+
+  .navbar .nav-item {
+    padding: 10px 0px;
+    width: 100%; }
+
+  .navbar .location {
+    width: 100%; }
+
+  .header .nav-right {
+    justify-content: space-between; } }
 @media screen and (max-width: 375px) {
   .footer .container {
     padding: 20px 10px 0px 10px; }
@@ -787,6 +811,16 @@ a:focus {
     margin-right: 10px; }
 
   .navbar .nav-item {
-    padding: 10px 0px; } }
+    padding: 10px 0px; }
+
+  .navbar .nav-item {
+    padding: 10px 0px;
+    width: 100%; }
+
+  .navbar .location {
+    width: 100%; }
+
+  .header .nav-right {
+    justify-content: space-between; } }
 
 /*# sourceMappingURL=main.css.map */
