@@ -773,6 +773,9 @@ a:focus {
     gap: 10px; }
 
   .intro-card:last-child {
-    margin-right: 10px; } }
+    margin-right: 10px; }
+
+  .navbar .nav-item {
+    padding: 10px 0px; } }
 
 /*# sourceMappingURL=main.css.map */
